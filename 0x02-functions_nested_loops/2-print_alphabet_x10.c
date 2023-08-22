@@ -4,16 +4,19 @@
  *
  * Return: Always 0.
  */
-
-void print_alphabet_(void);
-
 void print_alphabet_x10(void)
 {
+	char l = 'a';
 	int count = 1;
 
 	while (count <= 10)
 	{
-		print_alphabet();
+		while (l <= 'z')
+		{
+			_putchar(l);
+			l++;
+		}
+		_putchar('\n');
 		count++;
 	}
 }
