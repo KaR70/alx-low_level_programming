@@ -14,4 +14,5 @@ int print_last_digit(int a)
 		a = -a;
 	else
 		return (a);
+	return (a);
 }
