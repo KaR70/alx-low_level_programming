@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_triangle - Print a triangle.
  * @size: How big the triangle would be.
