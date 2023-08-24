@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - Print multiples of three, five and both.
- * Return: 0
+ * Return: 0.
  */
 int main(void)
 {
